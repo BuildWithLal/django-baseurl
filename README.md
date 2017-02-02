@@ -13,7 +13,6 @@ Django 1.10
 <br/>
 #####Installation
 <br/>
-
 Using PIP
 ```
 pip install django-baseurl
