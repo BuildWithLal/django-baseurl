@@ -1,5 +1,5 @@
 #### Site Base URL in Template Context
-A simple Django application which add Site base URL to template context processor with each reqeust. You can get Site URL in your template files using `{{ BASE_URL }}`
+A simple Django application which add Site base URL (with port if used any) to template context processor with each reqeust. You can get Site URL in your template files using `{{ BASE_URL }}`
 
 <br/>
 #####Tested Environment
@@ -58,7 +58,7 @@ TEMPLATES = [
 
 <br/>
 #####Usage
-Use below template variable inside your template file to get Site base url
+Use below template variable inside your template file to get Site base url (with port if used any)
 ```
 {{ BASE_URL }}
 ```
