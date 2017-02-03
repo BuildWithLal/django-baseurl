@@ -63,4 +63,5 @@ Use below template variable inside your template file to get Site base url (with
 {{ BASE_URL }}
 ```
 
+<br/>
 This package can be found on PyPi [here](https://pypi.python.org/pypi/django_baseurl)
